@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Inter&family=Great+Vibes&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.logo {
+    width: 13%;
+height: 10vh;
+    top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 30px;
+ color: rgb(214, 8, 142);
+ font-family: 'Great Vibes', cursive;
+ font-weight: 700; 
+}
+section{
+    height: 85vh;
+    width: 100%;
+overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-card{
+    height: 85%;
+    width: 50%;
+    font-family: poppins ;
+}
+.profile-header{
+ 
+    width: 100%;
+    height: 20%;
+   
+  
+}
+.profile-header h1{
+    font-size: 35px;
+    width: 100%;
+}
+.profile-header p{
+    font-size: 15px;
+    color: gray;
+}
+.add-head{
+    font-size: 20px;
+    height: 15%;
+}
+.profile-image{
+    width: 50%;
+    height: 25%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.profile-image .image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: dotted;
+    border-color: rgb(173, 168, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(173, 168, 168) ;
+    position: relative;
+}
+.image-selecter{
+    width: 50%;
+    height: 100%;
+}
+.image-selecter input{
+    height: 30%;
+}
+.image-selecter p{
+ 
+    height: 30%;
+    font-size: 12px;
+    color: gray;
+}
+#choose::before{
+    content: 'choose image';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+  
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+    visibility:visible;
+}
+#choose{
+    visibility: hidden;
+}
+.image-selecter span{
+    font-size: 15px;
+}
+.add-location{
+ height: 40%;
+
+}
+.add-location h3{
+    height: 40%;
+    display: flex;
+    justify-content:start;
+    align-items: end;
+   
+}
+#location{
+    border-bottom: 1px solid rgb(173, 168, 168);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    color: rgb(173, 168, 168);
+    font-size: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 40%;
+}
+.input{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location{
+    width:190px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: rgb(245, 94, 154);
+}
+#mask{
+    width:190px;
+    height: 40px;
+    border-radius: 10px;
+position: absolute;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.388);
+}
+.button{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+@media(max-width:1050px){
+    .logo {
+        width: 13%;
+    height: 8vh;
+        top: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-size: 30px;
+     color: rgb(214, 8, 142);
+     font-family: 'Great Vibes', cursive;
+     font-weight: 700; 
+    }
+    section{
+        height: 90vh;
+        width: 100%;
+    overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-card{
+        width: 70%;
+    }
+}
+@media (orientation:portrait) and (max-width:1050px) {
+    .logo {
+        width: 20%;
+        font-size: 25px;
+        height: 8vh;
+    }
+    .profile-card{
+        width: 100%;
+    }
+    .profile-header h1{
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-header p{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .add-head{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 5%;
+    }
+    .add-head h3{
+        font-size: 35px;
+    }
+    .profile-image{
+
+        width: 100%;
+        height: 40%;
+        display: block;
+    
+    }
+    .profile-image .image{
+        width: 230px;
+        height: 230px;
+       
+    }
+    .profile-image  .p-circle{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .profile-image .image-selecter{
+        width: 100%;
+       
+        height: 40%;
+    }
+    .image-input{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+     
+    }
+    #choose::before{
+        position: absolute;
+        left: 51%;
+        top: 56%;
+        transform: translate(-50%,-50%);
+        width: 150px;
+        height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .profile-image p{
+        display: none;
+    }
+    section{
+        height: 80vh;
+    }
+    .button{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button button{
+        width: 250px;
+        height: 60px;
+    }
+    #mask{
+        width: 250px;
+        height: 60px;
+    }
+}
+@media(max-width:790px){
+   
+    .logo {
+        width: 30%;
+        font-size: 25px;
+        height: 8vh;
+    }
+    .profile-card{
+        width: 100%;
+    }
+    .profile-header h1{
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-header p{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .add-head{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 5%;
+    }
+    .add-head h3{
+        font-size: 28px;
+    }
+    .profile-image{
+
+        width: 100%;
+        height: 40%;
+        display: block;
+    
+    }
+    .profile-image .image{
+        width: 200px;
+        height: 200px;
+       
+    }
+    .profile-image  .p-circle{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .profile-image .image-selecter{
+        width: 100%;
+       
+        height: 40%;
+    }
+    .image-input{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+     
+    }
+    #choose::before{
+        position: absolute;
+        left: 50%;
+        top: 56%;
+        transform: translate(-50%,-50%);
+    }
+    .profile-image p{
+        display: none;
+    }
+    section{
+        height: 80vh;
+    }
+    .button{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button button{
+        width: 250px;
+        height: 60px;
+    }
+    #mask{
+        width: 250px;
+        height: 60px;
+    }
+}
+@media(max-width:650px){
+    
+    .logo {
+        width: 30%;
+        font-size: 18px;
+        height: 8vh;
+    }
+    .profile-card{
+        width: 100%;
+    }
+    .profile-header h1{
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-header p{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .add-head{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 5%;
+    }
+    .add-head h3{
+        font-size: 20px;
+    }
+    .profile-image{
+
+        width: 100%;
+        height: 40%;
+        display: block;
+    
+    }
+    .profile-image .image{
+        width: 150px;
+        height: 150px;
+       
+    }
+    .profile-image  .p-circle{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .profile-image .image-selecter{
+        width: 100%;
+       
+        height: 40%;
+    }
+    .image-input{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+     
+    }
+    #choose::before{
+        position: absolute;
+        left: 50%;
+        top: 56%;
+        transform: translate(-50%,-50%);
+    }
+    .profile-image p{
+        display: none;
+    }
+    section{
+        height: 80vh;
+    }
+    .button{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button button{
+        width: 180px;
+        height: 40px;
+    }
+    #mask{
+        width: 180px;
+        height: 40px;
+    }
+}
+@media(max-width:450px){
+    .logo {
+        width: 30%;
+        font-size: 18px;
+        height: 8vh;
+    }
+    .profile-card{
+        width: 100%;
+    }
+    .profile-header h1{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-header p{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .add-head{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 10%;
+    }
+    .add-head h3{
+        font-size:18px;
+    }
+    .profile-image{
+
+        width: 100%;
+        height: 40%;
+        display: block;
+    
+    }
+    .profile-image .image{
+        width: 150px;
+        height: 150px;
+       
+    }
+    .profile-image  .p-circle{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .profile-image .image-selecter{
+        width: 100%;
+       
+        height: 40%;
+    }
+    .image-input{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+     
+    }
+    #choose::before{
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%,-50%);
+    }
+    .profile-image p{
+        display: none;
+    }
+    section{
+        height: 80vh;
+    }
+    .button{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button button{
+        width: 180px;
+        height: 40px;
+    }
+    #mask{
+        width: 180px;
+        height: 40px;
+    }
+}
+
+@media(max-width:300px){
+    .logo {
+        width: 20%;
+        font-size: 15px;
+        height: 8vh;
+    }
+    .profile-card{
+        width: 100%;
+    }
+    .profile-header h1{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-header p{
+        font-size: 8px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .add-head{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 5%;
+    }
+    .add-head h3{
+        font-size: 20px;
+    }
+    .profile-image{
+
+        width: 100%;
+        height: 40%;
+        display: block;
+    
+    }
+    .profile-image .image{
+        width: 140px;
+        height: 140px;
+       
+    }
+    .profile-image  .p-circle{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .profile-image .image-selecter{
+        width: 100%;
+       
+        height: 40%;
+    }
+    .image-input{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+     
+    }
+    #choose::before{
+        position: absolute;
+        left: 50%;
+        top: 56%;
+        transform: translate(-50%,-50%);
+    }
+    .profile-image p{
+        display: none;
+    }
+    section{
+        height: 80vh;
+    }
+    .button{
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button button{
+        width: 150px;
+        height: 40px;
+    }
+    #mask{
+        width: 150px;
+        height: 40px
+    }
+    .profile-card{
+        background-color: red;
+    }
+}

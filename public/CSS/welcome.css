@@ -1,0 +1,908 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Inter&family=Great+Vibes&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+section{
+    display: flex;
+width: 100%;
+    position: relative;
+}
+
+
+
+.home{
+width: 100%;
+height: 100vh;
+transition: 0.5s;
+
+}
+.singup-login{
+    width: 0%;
+height: 100vh;
+transition: 0.5s;
+position: relative;
+
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+}
+.include{
+    display: none;
+}
+.logo {
+    width: 13%;
+    position: absolute;
+    top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(97, 68, 5);
+    font-family: 'Great Vibes', cursive;
+    font-weight: 700; 
+}
+.singnup{
+    width: 100%;
+    height: 100%;
+    font-family: inter;
+    display: none;
+   transition: 0.5s;
+   position: absolute;
+}
+.login{
+    width: 100%;
+    height: 100%;
+    display: none;
+    font-family: inter;
+   transition: 0.5s;
+      position: absolute;
+}
+.top{
+    width: 100%;
+    height: 90px;
+   
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.top .buttons{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.buttons button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(3, 89, 139);
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+margin: auto;
+cursor: pointer;
+}
+.buttons p{
+    cursor: pointer;
+    color: rgb(97, 68, 5);
+}
+.buttons p:hover{
+    border-bottom: 1px solid;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    transition: 0.05s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+  font-family: poppins;
+    color: rgb(97, 68, 5);
+    font-weight: 700;
+    transition: 0.05s;
+}
+.login-msg{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+  
+}
+.login-msg p{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: inter;
+}
+p a{
+    color: blue;
+    font-family: inter;
+    cursor: pointer;
+}
+p a:hover{
+    border-bottom: 1px solid;
+}
+.form{
+    width: 100%;
+    height: 650px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.form2{
+    width: 100%;
+    height: 650px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.form2 form{
+    width: 100%;
+    height: 50%;
+ 
+}
+.form-items{
+    width: 100%;
+    height: 90%;
+ 
+}
+.header-form h1{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 30px;
+}
+.header-form{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    width: 100%;
+    height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.name .items{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name .items input{
+    width: 200px;
+    height: 50%;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    border: none;
+}
+.n{
+    height: 100%;
+    width: 200px;
+}
+.email{
+    width: 100%;
+    height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.email .items{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email .items input{
+    width: 450px;
+    height: 50%;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    border: none;
+}
+.e{
+    height: 100%;
+    width: 200px;
+}
+
+.password{
+    width: 100%;
+    height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.password .items{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.password .items input{
+    width: 450px;
+    height: 50%;
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    border: none;
+}
+.p{
+    height: 100%;
+    width: 200px;
+}
+.privacy{
+    width: 100%;
+    height: 100px;
+display: flex;
+justify-content: center;
+align-items: start;
+
+}
+.privacy .items{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+ 
+}
+.privacy .items input{
+   width: 10%;
+   height: 20px;
+}
+.privacy .items label{
+    width: 90%;
+    font-size: 15px;
+}
+.privacy .items label span{
+    color: blue;
+}
+.create-account{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.create-account .button{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items:start;
+}
+.create-account .button button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(245, 94, 154);
+    color: white;
+    border: none;
+   
+}
+@media (max-width:1290px){
+    .header-form h1{
+        width: 100%;
+     }
+     .login-msg{
+ 
+         height: 30px;
+    
+     }
+     
+     .login-msg p{
+      width: 50%;
+   
+     }
+     .form2 form{
+         height: 70%;
+      
+     }
+     .singnup-login.signup-active .login {
+     display: none;
+ }
+ 
+ .singnup-login.signup-active .singnup {
+     display: block;
+ }
+     form{
+         height: 70%;
+     }
+     .email .items{
+         width: 400px;
+     }
+     .email .items input{
+         width: 400px;
+     }
+     .password .items{
+         width: 400px;
+     }
+     .password .items input{
+         width: 400px;
+     }
+     .name .items{
+         width: 400px;
+     }
+     .name .items input{
+         width: 180px;}
+         .privacy .items{
+             width: 400px;
+         }
+         .create-account .button{
+             width: 100%;
+             display: flex;
+             justify-content: center;
+             align-items: start;
+         }
+}
+@media(max-width:1050px){
+    .header-form h1{
+       width: 100%;
+    }
+    .login-msg{
+
+        height: 30px;
+   
+    }
+    
+    .login-msg p{
+     width: 50%;
+  
+    }
+    .form2 form{
+        height: 70%;
+     
+    }
+    .singnup-login.signup-active .login {
+    display: none;
+}
+
+.singnup-login.signup-active .singnup {
+    display: block;
+}
+    form{
+        height: 100%;
+    }
+    .email .items{
+        width: 400px;
+    }
+    .email .items input{
+        width: 400px;
+    }
+    .password .items{
+        width: 400px;
+    }
+    .password .items input{
+        width: 400px;
+    }
+    .name .items{
+        width: 400px;
+    }
+    .name .items input{
+        width: 180px;}
+        .privacy .items{
+            width: 400px;
+        }
+        .create-account .button{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+        }
+}
+@media (orientation:portrait) and (max-width:1050px) {
+   
+    
+    .login-msg p{
+        width: 100%;
+        font-size: 30px;
+    }
+    .header {
+        height: 950px;
+       
+    }
+    .header p{
+        font-size: 60px;}
+        .logo {
+            width: 23%;
+            position: absolute;
+            top: .5%;}
+            .form{
+                height: 1000px;
+            }
+            form{
+                height: 60%;
+            }
+            .header-form{
+                height: 90px;
+            }
+            .name{
+                height: 120px;
+            }
+            .name .items{
+                height: 100%;
+                width: 70%;
+            }
+            .n{
+              width: 50%;
+            }
+            .header-form h1{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+      font-size: 50px;
+            }
+            .name label{
+                    font-size: 25px;
+            }
+            .name .items input{
+                width: 95%;
+                 display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 65% ;
+                font-size: 25px;
+              }
+              
+              .email{
+                height: 140px;
+                width: 100%;
+             
+              }
+              .e{
+                width: 70%;
+               
+              }
+              .email .items input{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             height: 65%;
+             font-size: 25px;
+              }
+              .email label{
+                font-size: 25px;
+              }
+              .email .items{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 140px;
+               
+              }
+              .password{
+                height: 120px;
+                width: 100%;
+              
+              }
+              .p{
+                width: 70%;
+               
+              }
+              .password .items input{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             height: 65%;
+             font-size: 25px;
+              }
+              .password label{
+                font-size: 25px;
+              }
+              .password .items{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 140px;
+               
+              }
+        .privacy {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         
+        }
+        .privacy .items{
+            width: 70%;
+            display: flex;
+            justify-content:start;
+            align-items: start;
+           
+        }
+        .privacy .items label{
+            font-size: 25px;
+        }
+        .create-account{
+            width: 100%;
+            height: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+        }
+     .create-account   .button{
+            width: 100%;
+            height: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      
+        }
+        .create-account .button button{
+            width: 50%;
+            height: 50%;
+            font-size: 25px;
+        }
+        .form{
+            height: 90vh;
+        }
+    }
+
+
+
+    @media(max-width:650px){
+        
+    
+        .login-msg p{
+            width: 60%;
+            font-size: 15px;
+        }
+        .header {
+            height: 500px;
+           
+        }
+        .header p{
+            font-size: 30px;
+       
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .privacy{
+            height: 70px;
+        }
+        .privacy .items{
+            width: 80%;
+        }
+        .privacy .items label{
+            font-size: 15px;
+        }
+        .password{
+            width: 100%;
+            height: 70px;
+        }
+      .password .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       height: 100%;
+     
+      }
+      .password label{
+        font-size: 15px;
+      }
+      .password .items input{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+     
+      }
+      .email .items input{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+      }
+      .email{
+        height: 70px;
+      }
+      .email .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      .email label{
+        font-size: 15px;
+      }
+      .p{
+        width: 80%;
+    
+    }
+    .e{
+        width: 80%;
+    
+    }
+    .n{
+        width:40%;
+       
+    
+    }
+    .name{
+        height: 70px;
+    }
+    
+    .name .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+    }
+    .name .items input{
+        width: 180px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+    font-size: 15px;
+     
+      }
+      .header-form{
+        height: 70px;
+
+      }
+    .header-form h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+       
+    }
+    .name label{
+        font-size: 15px;
+    }
+    .create-account {
+        height: 70px;
+        width: 100%;
+    
+    }
+    
+    .create-account  .button{
+        height: 100%;
+        width: 100%;
+    }
+    .create-account  .button button{
+        height: 55%;
+        width: 60%;
+        font-size: 15px;
+    }
+    form{
+        height: 70%;
+    }
+    }
+    @media (max-width:450px){
+        .privacy .items{
+            width: 80%;
+        }
+        .password{
+            width: 100%;
+        }
+      .password .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+     
+      }
+      .password .items input{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+      }
+      .email .items input{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     font-size: 15px;
+      }
+      .email .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .p{
+        width: 80%;
+    
+    }
+    .e{
+        width: 80%;
+    
+    }
+    .n{
+        width:40%;
+       
+    
+    }
+    
+    .name .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .name .items input{
+        width: 95%;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+     
+      }
+    .header-form h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    }
+    @media(max-width:390px){
+        .name .items input{
+            width: 140px;
+             display: flex;
+            justify-content: center;
+            align-items: center;
+         
+          }
+      
+    }
+    @media(max-width:300px){
+       
+        .header p{
+            font-size: 25px;
+       
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .buttons button{
+            font-size: 15px;
+        }
+       .top .buttons{
+            font-size: 15px;
+            width: 200px;
+        }
+    
+    
+        .privacy .items{
+            width: 100%;
+         
+        }
+        .password{
+            width: 100%;
+        }
+      .password .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+     
+      }
+      .password .items input{
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+      }
+      .email .items input{
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+      }
+      .email .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .p{
+        width: 80%;
+    
+    }
+    .e{
+        width: 80%;
+    
+    }
+    .n{
+        width:40%;
+       
+    
+    }
+    
+    .name .items{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .name .items input{
+        width: 100px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+     
+      }
+    .header-form h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    .create-account .button{
+        height: 20px;
+     
+    }
+    .login-msg p{
+    
+        width: 100%;
+    }
+    form{
+        height: 90%;
+    }
+    .form{
+        height: 650px;
+    }
+    .create-account .button button{
+        height: 100%;
+        width: 60%;
+        font-size: 10px;
+    }
+    }
